@@ -1,0 +1,8 @@
+Input Source Path
+http://svn.npixel.co.kr/ProjectR_Dev/trunk
+Input Destination Path
+E:\Work\jp_trunk\ProjectR_Dev
+StartRevision
+96800
+EndRevision
+96850

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MergeTool": {
+      "commandName": "Project",
+      "commandLineArgs": "merge -src http://svn.npixel.co.kr/ProjectR_Dev/trunk -dst E:\\Work\\jp_trunk\\ProjectR_Dev -sr 96800 -er 96850 --ms:0 [KR070] --ms:1 [KR074]"
+    }
+  }
+}

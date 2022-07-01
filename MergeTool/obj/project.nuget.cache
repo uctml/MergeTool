@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "d1FJahFtm0b08A4u08yTwEqU3U4kLQL1i7CW6yVz2+zWQQI0dwHPsfLQIp0cx4J8ycbZX9aG/ZFfklMuY0W9sA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\magatroid\\Desktop\\MergeTool\\MergeTool\\MergeTool\\MergeTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\magatroid\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+    "C:\\Users\\magatroid\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\magatroid\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\6.0.0\\microsoft.extensions.configuration.commandline.6.0.0.nupkg.sha512",
+    "C:\\Users\\magatroid\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\magatroid\\.nuget\\packages\\sharpsvn\\1.14001.156\\sharpsvn.1.14001.156.nupkg.sha512",
+    "C:\\Users\\magatroid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
