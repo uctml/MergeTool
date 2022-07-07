@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            },
+            "Jira.SDK": {
+              "target": "Package",
+              "version": "[1.2.25, )"
+            },
             "Microsoft.Extensions.Configuration.CommandLine": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -47,6 +55,10 @@
             "SharpSvn": {
               "target": "Package",
               "version": "[1.14001.156, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
