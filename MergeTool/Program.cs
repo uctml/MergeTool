@@ -18,21 +18,21 @@ class Program
             SvnProcessor SvnInstance = new SvnProcessor();
             JiraProcessor JiraInstance = new JiraProcessor();
             JiraInstance.Init();
-            JiraInstance.GetIssueWithFixedVersion(Config.GetJiraFixVersions());
+            JiraInstance.WriteFileWherePickedByMileStone(Config.GetJiraEpicKeyList(), Config.GetJiraFixVersionList());
 
             switch (Args[0].ToLower())
             {
                     // log
                 case "log":
-                    SvnInstance.ShowTaggedLog(Config.SrcPath, Config.StartRevision, Config.EndRevision, Config.GetMileStones());
+                    SvnInstance.ShowTaggedLog(Config.SrcPath, Config.StartRevision, Config.EndRevision, Config.GetMileStoneList());
                     break;
                     // merge
                 case "merge":
-                    SvnInstance.MergeAndCommitByMileStoneList(Config.SrcPath, Config.DstPath, Config.MergedMsg, Config.ConflictSolve, Config.StartRevision, Config.EndRevision, Config.GetMileStones(), false);
+                    SvnInstance.MergeAndCommitByMileStoneList(Config.SrcPath, Config.DstPath, Config.MergedMsg, Config.ConflictSolve, Config.StartRevision, Config.EndRevision, Config.GetMileStoneList(), false);
                     break;
                     // merge with commit
                 case "commit":
-                    SvnInstance.MergeAndCommitByMileStoneList(Config.SrcPath, Config.DstPath, Config.MergedMsg, Config.ConflictSolve, Config.StartRevision, Config.EndRevision, Config.GetMileStones(), true);
+                    SvnInstance.MergeAndCommitByMileStoneList(Config.SrcPath, Config.DstPath, Config.MergedMsg, Config.ConflictSolve, Config.StartRevision, Config.EndRevision, Config.GetMileStoneList(), true);
                     break;
                 default:
                     Console.WriteLine("Input Error");

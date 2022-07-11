@@ -2,7 +2,7 @@
   "profiles": {
     "MergeTool": {
       "commandName": "Project",
-      "commandLineArgs": "merge -src file:///D:/Prj/SVNRoot/trunk -dst D:\\Prj\\SVNMerge\\branch -cr Ignore -sr 79 -er 82 -ms [001]+[002] -jv KR074_B+JP076_B"
+      "commandLineArgs": "merge -src file:///D:/Prj/SVNRoot/trunk -dst D:\\Prj\\SVNMerge\\branch -cr Ignore -sr 79 -er 82 -ms [001]+[002] -jfv KR074_B+JP076_B"
     }
   }
 }
